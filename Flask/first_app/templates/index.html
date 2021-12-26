@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First app</title>
+</head>
+<body>
+    {% if name == "Pedro" %}
+    <p>Meu nome é Pedro</p>
+    {% else %}
+     <p>Você não é Pedro !!</p>
+    {%endif%}
+ 
+    <h1>Repetição</h1>
+    {% for i in range(0,101) %}
+     <a href="#">{{ i }}<a> <br>
+    {%endfor%}
+    
+</body>
+</html>
